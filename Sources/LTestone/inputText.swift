@@ -2,12 +2,12 @@
 import SwiftUI
 
 public struct inputText: View {
-    var title:String
-    public init(title: String) {
-        self.title = title
+    var name:String
+    public init(name: String) {
+        self.name = name
     }
 public  var body: some View {
-        Text(title)
+        Text(name)
     }
 }
  
