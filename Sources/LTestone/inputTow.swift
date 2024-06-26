@@ -2,12 +2,14 @@
 
 import SwiftUI
 
-struct inputTow: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+public struct inputTow: View {
+  var title :String
+    public init(title: String) {
+        self.title = title
+    }
+  public  var body: some View {
+        Text(title)
     }
 }
 
-#Preview {
-    inputTow()
-}
+ 
